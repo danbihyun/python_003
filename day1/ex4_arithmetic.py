@@ -18,10 +18,10 @@ quantity = 5
 total = price * quantity
 print(f"총 가격: {total}원")
 
-manwon = total // 10000
-print(f"만원: {manwon} 장")
-
 # 거스름돈 계산
 payment = 100000
 change = payment - total
 print(f"거스름돈: {change}원")
+
+manwon = change // 10000
+print(f"만원: {manwon} 장")
