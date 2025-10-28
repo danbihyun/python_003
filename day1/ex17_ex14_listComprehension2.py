@@ -22,9 +22,9 @@ print(f"간단한 방법: {moving_avg_short}")
 trends = []
 for i in range(1, len(moving_avg)):
     if moving_avg[i] > moving_avg[i-1]:
-        trends.append("상승")
+        trends.append("▲")
     elif moving_avg[i] < moving_avg[i-1]:
-        trends.append("하락")
+        trends.append("▼")
     else:
-        trends.append("보합")
+        trends.append("-")
 print(f"추세: {trends}")
