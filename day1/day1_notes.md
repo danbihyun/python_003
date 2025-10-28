@@ -115,9 +115,11 @@ print(data[ : :-1])   # [9, 8, 7, ... , 0] (처음부터 끝까지, 역순)
 7. Comprehension
 
 ```py
-# [표현식 for 변수 in 반복가능한객체]
-# [표현식 for 변수 in 반복가능한객체 if 조건식]
+[표현식 for 변수 in 반복가능한객체]
+[표현식 for 변수 in 반복가능한객체 if 조건식]
+```
 
+```py
 squares = []
 
 for i in range(10):
