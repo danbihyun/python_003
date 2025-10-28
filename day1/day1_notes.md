@@ -86,6 +86,8 @@ for dan in range(2, 10):
     print()  # 단 사이에 빈 줄 추가
 ```
 
+---
+
 6. 리스트 (List)
 
 ```py
