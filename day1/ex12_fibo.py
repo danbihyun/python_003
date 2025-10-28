@@ -8,6 +8,7 @@ fib = [0, 1]
 for i in range(2, n):
     next_num = fib[i-1] + fib[i-2]
     fib.append(next_num)
+    # print(f"fib[{i}] = {next_num}")
     
 print(f"피보나치 수열 (처음 {n}개):")
 print(fib)
