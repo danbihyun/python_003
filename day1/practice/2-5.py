@@ -4,3 +4,9 @@
 fruits = ["사과", "바나나", "포도", "수박"]
 
 print(fruits[::-1])
+
+
+
+# 방법 2
+# fruits.reverse()
+# print(fruits)

@@ -8,3 +8,12 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print("첫 번째 요소:", numbers[0])
 print("마지막 요소:", numbers[-1])
 print("처음 5개 요소:", numbers[ : 5])
+
+
+
+# 더 나은 코드
+# numbers = list(range(1, 11))
+
+# print(f"첫 번째: {numbers[0]}")
+# print(f"마지막: {numbers[-1]}")
+# print(f"처음 5개: {numbers[:5]}")
