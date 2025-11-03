@@ -7,5 +7,7 @@ phonebook = {
     
 name = "엄마"
 
-phone = phonebook.get(name)
-print(phone)
+# phone = phonebook.get(name)
+# print(phone)
+
+print(f"{name} 님의 전화번호는 {phonebook[name]} 입니다.")
