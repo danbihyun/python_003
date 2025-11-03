@@ -25,8 +25,9 @@ for name, scores in zip(student_names, students_scores):
     total = sum(scores)
     avg = total / len(scores)
     print(f"{name}: 총점 {total}, 평균 {avg:.1f}")
-    
-# 2. 과목별 평균print("\n=== 과목별 평균 ===")
+   
+# 2. 과목별 평균
+print("\n=== 과목별 평균 ===")
 for subject, *scores in zip(subjects, *students_scores):
     avg = sum(scores) / len(scores)
     print(f"{subject}: {avg:.1f}점")
