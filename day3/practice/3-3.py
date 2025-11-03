@@ -8,3 +8,6 @@ students = {
 
 for name in students.keys():
     print(name)
+
+# 한 줄로 쓰는 경우:
+# [print(name) for name in students.keys()]
